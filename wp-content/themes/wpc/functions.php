@@ -54,19 +54,22 @@ $plugins = array(
 		array(
 			'name'      => 'WP GraphQL WooCommerce',
 			'slug'      => 'wp-graphql-woocommerce',
-			'source'    => 'https://github.com/wp-graphql/wp-graphql-woocommerce/archive/refs/heads/develop.zip',
+			'source'    => 'https://github.com/wp-graphql/wp-graphql-woocommerce/archive/refs/tags/v0.10.1.zip',
+			'required'  => true,
 		),
 
 		array(
 			'name'      => 'WPGraphQL JWT Authentication',
 			'slug'      => 'wp-graphql-jwt-authentication',
-			'source'    => 'https://github.com/wp-graphql/wp-graphql-jwt-authentication/archive/refs/heads/develop.zip',
+			'source'    => 'https://github.com/wp-graphql/wp-graphql-jwt-authentication/archive/refs/heads/master.zip',
+			'required'  => true,
 		),
 
 		array(
 			'name'      => 'WP GraphQL CORS',
 			'slug'      => 'wp-graphql-cors',
 			'source'    => 'https://github.com/funkhaus/wp-graphql-cors/archive/refs/heads/master.zip',
+			'required'  => true,
 		),
 		
 		// // This is an example of the use of 'is_callable' functionality. A user could - for instance -
