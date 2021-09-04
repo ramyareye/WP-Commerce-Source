@@ -51,12 +51,12 @@ $plugins = array(
 		),
 
 		// from https://github.com/wp-graphql/wp-graphql-woocommerce
-		array(
-			'name'      => 'WP GraphQL WooCommerce',
-			'slug'      => 'wp-graphql-woocommerce',
-			'source'    => 'https://github.com/wp-graphql/wp-graphql-woocommerce/archive/refs/tags/v0.10.1.zip',
-			'required'  => true,
-		),
+			array(
+				'name'      => 'WP GraphQL WooCommerce',
+				'slug'      => 'wp-graphql-woocommerce',
+				'source'    => 'https://github.com/wp-graphql/wp-graphql-woocommerce/releases/download/v0.10.3/wp-graphql-woocommerce.zip',
+				'required'  => true,
+			),
 
 		array(
 			'name'      => 'WPGraphQL JWT Authentication',
