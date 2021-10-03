@@ -54,7 +54,7 @@ $plugins = array(
 			array(
 				'name'      => 'WP GraphQL WooCommerce',
 				'slug'      => 'wp-graphql-woocommerce',
-				'source'    => 'https://github.com/wp-graphql/wp-graphql-woocommerce/releases/download/v0.10.3/wp-graphql-woocommerce.zip',
+				'source'    => 'https://github.com/wp-graphql/wp-graphql-woocommerce/releases/download/v0.10.4/wp-graphql-woocommerce.zip',
 				'required'  => true,
 			),
 
